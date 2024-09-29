@@ -1,0 +1,3 @@
+/home/jammay/robit-cpp-homework/build-HW4-Desktop-Debug/CMakeFiles/HW4.dir
+/home/jammay/robit-cpp-homework/build-HW4-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/jammay/robit-cpp-homework/build-HW4-Desktop-Debug/CMakeFiles/rebuild_cache.dir
