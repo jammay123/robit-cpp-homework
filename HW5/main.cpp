@@ -13,7 +13,7 @@ public:
     virtual ~Animal() {}
 
     virtual void makeSound() const = 0;
-    virtual void showInfo() const {
+    void showInfo() const {
         cout << "이름: " << name << ", 나이: " << age << endl;
     }
 };
@@ -21,19 +21,19 @@ public:
 // Dog 클래스
 class Dog : public Animal {
 public:
-    void makeSound() const { cout << "Bark! Bark! Bark!" << endl; }
+    virtual void makeSound() const { cout << "Bark! Bark! Bark!" << endl; }
 };
 
 // Cat 클래스
 class Cat : public Animal {
 public:
-    void makeSound() const { cout << "Meow! Meow! Meow!" << endl; }
+    virtual void makeSound() const { cout << "Meow! Meow! Meow!" << endl; }
 };
 
 // Bird 클래스
 class Bird : public Animal {
 public:
-    void makeSound() const { cout << "Chirp! Chirp! Chirp!" << endl; }
+    virtual void makeSound() const { cout << "Chirp! Chirp! Chirp!" << endl; }
 };
 
 Animal* PlusDog = nullptr;
